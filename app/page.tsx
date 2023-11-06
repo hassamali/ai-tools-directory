@@ -28,7 +28,7 @@ export default function Page() {
                 ))}
               </div>
             </div>
-            <div className="shadow-2xl rounded-lg p-4 shadow-lg shadow-cyan-500/50">
+            <div className="rounded-lg p-4 shadow-lg shadow-cyan-500/50">
               <h2 className="text-xl font-bold mb-2 text-blue-200"><OndemandVideoRoundedIcon /> Video Generators</h2>
               <div className="flex flex-col">
                 {VideoCreatingTools.map((tool, index) => (
@@ -40,7 +40,7 @@ export default function Page() {
                 ))}
               </div>
             </div>
-            <div className="shadow-2xl rounded-lg p-4 shadow-lg shadow-cyan-500/50">
+            <div className="rounded-lg p-4 shadow-lg shadow-cyan-500/50">
               <h2 className="text-xl font-bold mb-2 text-blue-200"><ChatBubbleRoundedIcon /> AI Chatbots</h2>
               <div className="flex flex-col">
                 {textBaseTools.map((tool, index) => (
@@ -52,7 +52,7 @@ export default function Page() {
                 ))}
               </div>
             </div>
-            <div className="shadow-2xl rounded-lg p-4 shadow-lg shadow-cyan-500/50">
+            <div className="rounded-lg p-4 shadow-lg shadow-cyan-500/50">
               <h2 className="text-xl font-bold mb-2 text-blue-200"><ArticleRoundedIcon/> AI Content Writers</h2>
               <div className="flex flex-col">
                 {contentWritingTools.map((tool, index) => (
