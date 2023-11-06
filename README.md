@@ -11,5 +11,3 @@ The [AI Tools Directory](teezaro.com) is a meticulously curated selection aimed 
 🌟 As I embark on this journey of front-end development, I welcome and value feedback on coding practices. Your insights and suggestions are essential in improving this platform and making it a valuable resource for the AI community.
 
 🔷 **Beta Version Alert**: This repository is currently in its beta stage. Stay tuned for continuous updates as we expand the tool collection, introduce more features, and include tutorial blogs, evolving this into a comprehensive and informative resource for the AI enthusiasts and professionals.
-
-Join us on this exciting journey as we endeavor to build a robust, easy-to-navigate, and purpose-driven platform for AI tools and resources.
