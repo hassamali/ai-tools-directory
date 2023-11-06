@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Footer from './component/Footer'
 
 export const metadata: Metadata = {
   title: 'AI Tools Directory 2023',
