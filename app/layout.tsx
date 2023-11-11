@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Head from 'next/head'
+import Script from 'next/script'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -17,11 +18,11 @@ export default function RootLayout({
     <html lang="en">
             <Head>
               {/* Other head elements */}
-              <script
+              <Script
                 async
                 src={`https://www.googletagmanager.com/gtag/js?id=G-S77L3RL5KR`}
               />
-              <script
+              <Script
                 dangerouslySetInnerHTML={{
                   __html: `
                     window.dataLayer = window.dataLayer || [];
