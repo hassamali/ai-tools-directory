@@ -17,9 +17,11 @@ export default function RootLayout({
     <html lang="en">
               <Script
                 async
+                id="my-script"
                 src={`https://www.googletagmanager.com/gtag/js?id=G-S77L3RL5KR`}
               />
               <Script
+                id="my-script"
                 dangerouslySetInnerHTML={{
                   __html: `
                     window.dataLayer = window.dataLayer || [];
