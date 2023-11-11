@@ -10,7 +10,7 @@ import ArticleRoundedIcon from '@mui/icons-material/ArticleRounded';
 
 export default function Page() {
   return (
-    <>
+    <> 
       <Header />
       <div className="min-h-screen flex items-center justify-center ">
         <div className="container mx-auto ">
