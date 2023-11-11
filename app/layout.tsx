@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Head from 'next/head'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -14,9 +15,28 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={'${Inter.className} bg-slate-800 text-slate-100 container mx-auto p-4'}>
-        {children}
-      </body>
+            <Head>
+              {/* Other head elements */}
+              <script
+                async
+                src={`https://www.googletagmanager.com/gtag/js?id=G-XWTMN9KD6M`}
+              />
+              <script
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() {
+                      window.dataLayer.push(arguments);
+                    }
+                    gtag('js', new Date());
+                    gtag('config', 'G-XWTMN9KD6M');
+                  `,
+                }}
+              />
+            </Head>
+            <body className={'${Inter.className} bg-slate-800 text-slate-100 container mx-auto p-4'}>
+              {children}
+            </body>
     </html>
   )
 }
