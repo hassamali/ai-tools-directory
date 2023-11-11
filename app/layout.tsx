@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Head from 'next/head'
 import Script from 'next/script'
 import './globals.css'
 
@@ -16,8 +15,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-            <Head>
-              {/* Other head elements */}
               <Script
                 async
                 src={`https://www.googletagmanager.com/gtag/js?id=G-S77L3RL5KR`}
@@ -34,7 +31,6 @@ export default function RootLayout({
                   `,
                 }}
               />
-            </Head>
             <body className={'${Inter.className} bg-slate-800 text-slate-100 container mx-auto p-4'}>
               {children}
             </body>
